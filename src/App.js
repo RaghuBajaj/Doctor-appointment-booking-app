@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import AllDoctors from './components/AllDoctors';
+import Login from './components/Login';
+import Doctor from './components/Doctor';
+import Profile from './components/Profile';
+import MyAppointments from './components/MyAppointments';
+// import Speciality from './components/Speciality';
+ 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path='/Home' element={<Home/>}></Route>
+        <Route path='/AllDoctors' element={<AllDoctors />}></Route>
+        <Route path='/About' element={<About/>}></Route>
+        <Route path='/Contact' element={<Contact/>}></Route>
+        <Route path='/Login' element={<Login/>}></Route>
+       
+        <Route path='/Profile' element={<Profile/>}></Route>
+        <Route path='/Doctor' element={<Doctor/>}></Route>
+        <Route path='/MyAppointments' element={<MyAppointments/>}></Route>
+        {/* <Route path='/Speciality' element={<Speciality/>}></Route> */}
+      </Routes>
+      
     </div>
   );
 }

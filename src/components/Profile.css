@@ -1,0 +1,110 @@
+.full_pfl{
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+    width: 100%;
+}
+.profile_pfl{
+    margin: 0;
+    margin-bottom: 4%;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.img_pfl{
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+    object-fit: cover;
+    width: 24%;
+}
+.name_pfl{
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line_pfl{
+    margin: 0;
+    padding: 0;
+    width: 94%;
+    height: 1px;
+    background-color: rgb(185, 181, 181);
+}
+.info_pfl{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.contact_info_pfl{
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.heading_info_pfl{
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+    font-size: small;
+    font-weight: 500;
+    color: rgb(95, 96, 97);
+    text-decoration: underline;
+}
+.section_info_pfl{
+    margin: 0;
+    padding: 0;
+    width: 94%;
+    display: flex;
+    font-size: small;
+    /* border: 1px solid blue; */
+}
+.title_info_pfl{
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+    width: 20%;
+    color: black;
+    font-weight: 700;
+}
+.input_pfl{
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+.date_pfl{
+    border: hidden;
+}
+.btn_pfl{
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    width: max-content;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+.btn_pfl:hover{
+    color: white;
+    background-color: rgb(110, 57, 224); 
+}

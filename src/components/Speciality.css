@@ -1,0 +1,23 @@
+.full_spec{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.part1_spec{
+    margin: 0;
+    padding: 1%;
+    width: 18%;
+    border: 1px solid red;
+}
+.img_spec{
+    object-fit: cover;
+    width: 94%;
+}
+.part2_spec{
+    margin: 0;
+    padding: 0;
+    width: 78%;
+    border: 1px solid red;
+}

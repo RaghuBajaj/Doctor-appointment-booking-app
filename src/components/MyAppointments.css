@@ -1,0 +1,113 @@
+.full_myA{
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    font-size: large;
+    font-weight: 400;
+}
+.title_myA{
+    margin: 0;
+    padding: 1%;
+    border-bottom: 1.5px solid rgb(222, 223, 227);
+}
+.show_apmt_myA{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+}
+.item_myA{
+    margin: 0;
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid rgb(232, 232, 232);
+}
+.doc_myA{
+    margin: 0;
+    padding: 0;
+    width: 66%;
+    display: flex;
+    /* border: 1px solid rgb(209, 249, 5); */
+}
+.image_myA{
+    background-color: rgba(78, 184, 255, 0.833);
+    width: 24%;
+    display: flex;
+    align-items: end;
+    border-radius: 4px;
+}
+.img_doc_myA{
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    width: 100%;
+}
+.info_myA{
+    margin: 0;
+    padding: 1.2%;
+    padding-left: 2%;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.name_myA{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nam1_myA{
+    font-size: larger;
+}
+.nam2_myA{
+    font-size: medium;
+}
+.daytime_myA{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: rgb(140, 140, 140);
+}
+.dt1_myA{
+    font-size: small;
+}
+.dt2_myA{
+    font-size: medium;
+}
+.btn_opt_myA{
+    margin: 0;
+    padding: 1%;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+.btn_myA{
+    margin: 1%;
+    padding: 2.4%;
+    width: 70%;
+    font-size: medium;
+    background-color: rgba(245, 245, 246, 0.521);
+    border: 1px solid rgb(190, 190, 195);
+    border-radius: 4px;
+}
+.bt1_myA:hover{
+    transform: translateY(-5%);
+    background-color: rgba(255, 0, 0, 0.95);
+    border: 1px solid rgba(236, 46, 46, 0.836);
+    color: white;
+    font-weight: 500;
+}
+.bt2_myA:hover{
+    transform: translateY(-5%);
+    background-color:rgba(63, 51, 237, 0.929);
+    border: 1px solid rgba(26, 41, 246, 0.863);
+    color: white;
+    font-weight: 500;
+}

@@ -1,0 +1,26 @@
+*{
+    overflow-x: hidden;
+}
+.full_App1{
+    margin: 0;
+    padding: 0;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    width: 92vw;
+    display: flex;
+    flex-direction: column;
+}
+.parts_App1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav_App1{
+    width: 19%;
+    border-right: 1.5px solid rgba(219, 222, 224, 0.831);
+}
+.rout_App1{
+    width: 81%;
+    background-color: rgba(238, 244, 249, 0.598);
+    /* border: 1px solid red; */
+}
