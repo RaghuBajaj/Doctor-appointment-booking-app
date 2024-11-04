@@ -130,8 +130,8 @@
     padding: 0;
 }
 .d_day_docA{
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     width: 2.8vw;
 }
 .d_day_docA:hover{
@@ -146,6 +146,10 @@
 }
 .d_tim_docA:hover{
     cursor: pointer;
+    color: white;
+    background-color: rgb(123, 65, 239);
+}
+.active_docA{
     color: white;
     background-color: rgb(123, 65, 239);
 }

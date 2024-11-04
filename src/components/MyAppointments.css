@@ -99,15 +99,17 @@
 }
 .bt1_myA:hover{
     transform: translateY(-5%);
-    background-color: rgba(255, 0, 0, 0.95);
-    border: 1px solid rgba(236, 46, 46, 0.836);
+    background-color: red;
+    border: 1px solid red;
     color: white;
     font-weight: 500;
 }
 .bt2_myA:hover{
     transform: translateY(-5%);
-    background-color:rgba(63, 51, 237, 0.929);
-    border: 1px solid rgba(26, 41, 246, 0.863);
+    background-color:rgba(2, 170, 173, 0.929);
+    border: 1px solid rgb(2, 153, 155);
+    /* background-color:rgba(63, 51, 237, 0.929);
+    border: 1px solid rgba(26, 41, 246, 0.863); */
     color: white;
     font-weight: 500;
 }

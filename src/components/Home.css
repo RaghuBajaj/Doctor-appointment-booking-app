@@ -165,7 +165,7 @@
     align-items: center;
     justify-content: space-evenly;
     box-sizing: border-box;
-    gap: 3%;
+    gap: 2%;
 }
 .box11_img_hom{
     object-fit: cover;

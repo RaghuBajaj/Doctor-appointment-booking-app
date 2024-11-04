@@ -11,8 +11,7 @@ function MyAppointments() {
         console.log('itemsss',itm);
         if(itm[0].id === item.id && itm[0].day === item.day && itm[0].time === item.time){
           itm[0].cancled = true;
-          return itm;
-          console.log('itm',itm);
+          return itm; 
         }
         return itm;
       })
@@ -51,7 +50,7 @@ function MyAppointments() {
               </div>
               <div className="btn_opt_myA">
                 <button className="btn_myA bt2_myA">Pay Now</button>
-                <button className="btn_myA bt1_myA" onClick={()=>{cancleAppointment(item)}}>Cancle</button>
+                <button className="btn_myA bt1_myA" onClick={()=>{cancleAppointment(item)}}>Cancel</button>
               </div>
             </div>
           );

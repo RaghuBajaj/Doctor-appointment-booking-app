@@ -55,10 +55,10 @@
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 0;
-    font-size: small;
+    font-size: medium;
     font-weight: 500;
-    color: rgb(95, 96, 97);
-    text-decoration: underline;
+    color:black;
+    /* text-decoration: underline; */
 }
 .section_info_pfl{
     margin: 0;
@@ -74,7 +74,7 @@
     margin-bottom: 1%;
     padding: 0;
     width: 20%;
-    color: black;
+    color: rgb(13, 3, 158);
     font-weight: 700;
 }
 .input_pfl{

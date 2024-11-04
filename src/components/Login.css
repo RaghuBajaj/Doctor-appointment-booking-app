@@ -49,11 +49,29 @@
 .input_log{
     margin: 0;
     padding: 2%;
-    font-size: medium;
     border: 1px solid rgb(200, 200, 201);
     border-radius: 4px;
     font-size: medium;
     font-weight: 400;
+}
+.invalid_log{
+    margin: 0;
+    padding: 2%;
+    background-color: rgb(255, 239, 239);
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: 400;
+}
+.error_log{
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    color: red;
+}
+.input_error{
+    /* background-color: rgb(255, 239, 239); */
+    border: 1px solid red;
 }
 .btn_log{
     cursor: pointer;

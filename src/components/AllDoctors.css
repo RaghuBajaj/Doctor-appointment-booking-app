@@ -32,16 +32,24 @@
     border-radius: 4px;
     box-shadow: 1px 1px 2px rgb(194, 195, 196);
     font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     align-items: center;
     justify-content: start;
 }
-.btn_ad:hover{
+.b_:hover{
     cursor: pointer;
-    /* transform: scale(1.02); */
     transform: translateY(-5%);
-    background-color: rgba(200, 200, 216, 0.642);
+    background-color: rgba(219, 219, 245, 0.642);
 }
+.active_btn_ad{
+    cursor: pointer;
+    transform: scale(1.02);
+    transform: translateY(-5%);
+    background-color: rgba(180, 180, 196, 0.543);
+    border: 1px solid gray;
+}
+
 .con2_ad{
     margin: 0;
     margin-bottom: 1%;
