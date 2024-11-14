@@ -81,13 +81,13 @@
     font-size: medium;
     font-weight: 500;
     color: white;
-    background-color: rgb(127, 80, 255);
+    background-color: rgb(7, 71, 210);;
     border: 1.5px solid rgba(91, 50, 186, 0.954);
     border-radius: 4px;
 }
 .btn_log:hover{
     transform: scale(1.02);
-    filter: drop-shadow(0px 0px 1px rgb(127, 80, 255));
+    filter: drop-shadow(0px 0px 1px rgb(7, 71, 210));
 }
 .switch_log{
     cursor: pointer;

@@ -23,7 +23,7 @@
     object-fit: cover;
     border: 1px solid gray;
     border-radius: 6px;
-    background-color: rgb(123, 65, 239);
+    background-color: rgb(7, 71, 210);
     filter: drop-shadow(0px 0px 4px gray);
 }
 .about_docA{
@@ -137,7 +137,7 @@
 .d_day_docA:hover{
     cursor: pointer;
     color: white;
-    background-color: rgb(123, 65, 239);
+    background-color:rgb(34, 102, 249);
 }
 .d_tim_docA{
     padding-left: 2.5%;
@@ -147,11 +147,11 @@
 .d_tim_docA:hover{
     cursor: pointer;
     color: white;
-    background-color: rgb(123, 65, 239);
+    background-color: rgb(34, 102, 249);
 }
 .active_docA{
     color: white;
-    background-color: rgb(123, 65, 239);
+    background-color: rgb(7, 71, 210);
 }
 .btn_docA{
     margin: 0;
@@ -159,13 +159,13 @@
     width: 24%;
     cursor: pointer;
     color: white;
-    background-color: rgb(123, 65, 239);
+    background-color: rgb(7, 71, 210);
     border: 1px solid rgb(50, 50, 56);
     border-radius: 20px;
 }
 .btn_docA:hover{
     transform: scale(1.02);
-    background-color: rgba(98, 55, 206, 0.92);
+    background-color: rgb(7, 71, 210);
 }
 
 .sp_hom{
